@@ -3,8 +3,8 @@ import React from "react";
 const TopBar = () => {
   return (
     <>
-      <div className="h-10 items-center bg-transparent py-10 ">
-        <div className="flex w-full justify-center py-2 md:border-b ">
+      <div className="flex h-10 items-center justify-center bg-transparent py-10 ">
+        <div className="flex w-full justify-center border-b py-2 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -18,12 +18,12 @@ const TopBar = () => {
             />
           </svg>
 
-          <p className="mx-8 border-r-2 px-5 font-light tracking-widest text-white md:mx-2">
+          <p className="mx-8 border-r-2 px-4 font-light tracking-widest text-white md:mx-2">
             +971524580280
           </p>
 
           <div className="flex">
-            <p className="mx-5 font-light tracking-widest text-green">
+            <p className="font-light tracking-widest text-green md:mx-5">
               Whatsapp Now
             </p>
           </div>
