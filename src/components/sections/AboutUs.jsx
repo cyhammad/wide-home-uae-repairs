@@ -20,7 +20,7 @@ const AboutUs = () => {
     {
       title: "10k Repairs Experience",
       description:
-        "Benefit from our extensive 10,000 repairs worth of experience, ensuring reliable solutions and unparalleled expertise for your home repair needs.",
+        "Benefit from our extensive 10,000 repairs worth of experience, ensuring reliable solutions and expertise for your home repair needs.",
     },
   ];
 

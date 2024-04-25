@@ -1,6 +1,6 @@
 const AboutUsCard = ({ title, description }) => {
   return (
-    <div className="mb-3 mt-4 w-screen max-w-sm transform cursor-pointer overflow-hidden rounded text-center shadow-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:text-white lg:mt-10">
+    <div className="mb-3 mt-4 max-w-sm transform cursor-pointer rounded text-center shadow-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:text-white lg:mt-10">
       <div className="mb-2 mt-10 text-center text-xl font-semibold tracking-wide text-black">
         {title}
       </div>

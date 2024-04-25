@@ -4,8 +4,8 @@ import React from "react";
 const TopBar = () => {
   return (
     <>
-      <div className="h-10 items-center bg-transparent py-10 sm:block sm:flex">
-        <div className="flex w-full justify-center py-2 md:border-b lg:w-2/5 lg:justify-end">
+      <div className="h-10 items-center bg-transparent py-10 ">
+        <div className="flex w-full justify-center py-2 md:border-b ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -24,16 +24,16 @@ const TopBar = () => {
           </p>
 
           <div className="flex">
-          <Image
-            className="ml-4 "
-            src="/whatsApp.png"
-            width={24}
-            height={20}
-            alt="WhatsApp"
-          />
-          <p className="md:mx-5 font-light tracking-widest text-green">
-            Whatsapp Now
-          </p>
+            <Image
+              className="ml-4 "
+              src="/whatsApp.png"
+              width={24}
+              height={20}
+              alt="WhatsApp"
+            />
+            <p className="mx-5 font-light tracking-widest text-green">
+              Whatsapp Now
+            </p>
           </div>
         </div>
       </div>
