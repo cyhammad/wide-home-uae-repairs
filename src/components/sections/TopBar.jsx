@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 const TopBar = () => {
@@ -24,13 +23,6 @@ const TopBar = () => {
           </p>
 
           <div className="flex">
-            <Image
-              className="ml-4 "
-              src="/whatsApp.png"
-              width={24}
-              height={20}
-              alt="WhatsApp"
-            />
             <p className="mx-5 font-light tracking-widest text-green">
               Whatsapp Now
             </p>
