@@ -13,8 +13,8 @@ const LogoSection = () => {
 
   return (
     <>
-      <div className="mt-5 flex items-center sm:justify-between">
-        <div className="flex flex-col items-center sm:w-3/6 md:w-2/5 md:flex-row md:justify-end">
+      <div className="mt-5 flex items-center justify-evenly">
+        <div className="flex items-center justify-start md:w-2/5 md:flex-row md:justify-end">
           <Image
             className="flex"
             src="/logo.png"
@@ -26,8 +26,8 @@ const LogoSection = () => {
             Wide Home UAE Repairs
           </h2>
         </div>
-        <div className="hidden w-3/5 text-lg md:block">
-          <ul className="flex justify-center gap-10 font-bold text-white">
+        <div className="hidden w-full text-lg md:block md:w-3/5">
+          <ul className="mr-5 flex justify-center gap-10 font-bold text-white">
             <li>
               <Link href="" className="text-green hover:text-white">
                 Home
@@ -101,9 +101,9 @@ const LogoSection = () => {
           When it comes to repairing your home appliances, you need a technician
           you can trust to deliver exceptional service.
         </p>
-        <div className="mx-auto mt-5 flex gap-10">
+        <div className="mx-auto mt-5 flex flex-col gap-10 md:flex-row">
           <button
-            className="flex flex-shrink-0 rounded-3xl border-4 border-none bg-green px-14 py-2.5 text-white transition duration-300 ease-in-out hover:bg-white hover:text-green"
+            className="flex flex-shrink-0 justify-center rounded-3xl border-4 border-none bg-green px-14 py-2.5 text-white transition duration-300 ease-in-out hover:bg-white hover:text-green"
             type="button"
           >
             Call Us

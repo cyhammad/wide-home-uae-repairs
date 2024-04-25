@@ -23,16 +23,18 @@ const TopBar = () => {
             +971524580280
           </p>
 
+          <div className="flex">
           <Image
-            className="ml-4"
+            className="ml-4 "
             src="/whatsApp.png"
             width={24}
             height={20}
             alt="WhatsApp"
           />
-          <p className="mx-5 font-light tracking-widest text-green">
+          <p className="md:mx-5 font-light tracking-widest text-green">
             Whatsapp Now
           </p>
+          </div>
         </div>
       </div>
     </>
