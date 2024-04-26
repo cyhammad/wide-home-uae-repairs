@@ -26,7 +26,7 @@ const Footer = () => {
               and Abu Dhabi of all the Siemens home appliances.
             </p>
           </div>
-          <ul className="flex flex-col justify-center  gap-5 border-b border-gray-300 py-6 font-bold text-white md:flex-row md:gap-10">
+          <ul className="flex flex-col justify-center gap-5 border-b border-gray-300 pb-6  font-bold text-white md:flex-row md:gap-10 md:py-6">
             <li>
               <Link href="" className="text-green hover:underline">
                 Home

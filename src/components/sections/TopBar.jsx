@@ -21,7 +21,7 @@ const TopBar = () => {
           </p>
 
           <div className="flex">
-            <p className="font-light tracking-widest text-green md:mx-5">
+            <p className="mr-3 font-light tracking-widest text-green md:mx-5">
               Whatsapp Now
             </p>
           </div>
