@@ -48,8 +48,10 @@ const Services = () => {
   return (
     <>
       <div className="text-center">
-        <h1 className="py-3 text-3xl font-bold">Quality Appliance Repair</h1>
-        <p className="pb-5">
+        <h1 className="mx-3 py-3 text-2xl font-bold md:mx-0 md:text-3xl">
+          Quality Appliance Repair
+        </h1>
+        <p className="mx-3 pb-5 md:mx-0">
           We are the largest full-service appliance repair company in the world.
           We service all types and brands of home appliances. People trust us.
         </p>

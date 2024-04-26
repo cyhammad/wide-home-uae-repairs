@@ -14,12 +14,12 @@ const Footer = () => {
               height={180}
               alt="Logo"
             />
-            <p className="mx-3 mt-3 text-xl font-bold tracking-wider text-black">
+            <p className="text:lg mx-3 mt-3 font-bold tracking-wide text-black md:text-xl md:tracking-wider">
               Wide Home UAE Repairs
             </p>
           </div>
           <div>
-            <p className="py-6 text-center tracking-wide text-gray-500 md:px-4">
+            <p className="py-6 text-justify tracking-wide text-gray-500 md:px-4 md:text-center">
               When it comes to repairing your home appliances, you need a
               technician you can trust to deliver exceptional service.
               Specializing in appliance repair and maintenance services in Dubai
@@ -57,7 +57,7 @@ const Footer = () => {
             </li>
           </ul>
           <div className="flex items-center justify-center text-gray-500">
-            <p className="py-6 text-center md:tracking-wide">
+            <p className="py-6 text-center text-sm md:tracking-wide">
               © 2024 Emirates Repair Center. All rights reserved.
             </p>
           </div>

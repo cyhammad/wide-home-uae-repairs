@@ -41,7 +41,7 @@ const Experience = () => {
             <h1 className="mt-4 text-center text-2xl font-bold tracking-wide text-black md:mt-2 md:text-left">
               20 Years Experience In This Passion
             </h1>
-            <p className="mt-6 text-gray-500">
+            <p className="mt-6 text-justify text-gray-500">
               Wide Home UAE Repairs established in Dubai and Abu Dhabi, provides
               home appliance repair and maintenance services over the phone.
               With over 10 years of experience in installing, repairing, and

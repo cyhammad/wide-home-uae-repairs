@@ -22,7 +22,7 @@ const LogoSection = () => {
             height={180}
             alt="Logo"
           />
-          <h2 className="mx-3 mt-3 text-xl font-bold tracking-wider text-white">
+          <h2 className="mx-3 mt-3 font-bold text-white md:text-xl md:tracking-wider">
             Wide Home UAE Repairs
           </h2>
         </div>
@@ -55,7 +55,7 @@ const LogoSection = () => {
         </div>
 
         <button
-          className="h-20 w-20 items-center justify-center rounded-3xl bg-green px-2 text-white focus:outline-none md:hidden"
+          className="rounded-3xlpx-2 h-20 w-20 items-center justify-center text-white focus:outline-none md:hidden"
           onClick={toggleMenu}
         >
           {showMenu ? "X" : "☰"}
@@ -94,7 +94,7 @@ const LogoSection = () => {
         )}
       </div>
       <div className="flex h-3/5 flex-col justify-center">
-        <h1 className="mt-10 text-center text-2xl font-extrabold tracking-wide text-green md:text-5xl">
+        <h1 className="mx-3 mt-10 text-center text-2xl font-extrabold tracking-wide text-green md:text-5xl">
           #1 The Fastest Service Center
         </h1>
         <p className="mx-3 my-7 text-center text-lg font-normal tracking-wider text-white md:mx-0 md:text-xl">
