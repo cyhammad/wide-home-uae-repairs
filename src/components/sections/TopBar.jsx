@@ -1,10 +1,8 @@
-import React from "react";
-
 const TopBar = () => {
   return (
     <>
       <div className="flex h-10 items-center justify-center bg-transparent py-10 ">
-        <div className="flex w-full justify-center border-b py-2 ">
+        <div className="flex w-full items-center justify-center border-b py-2 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -18,7 +16,7 @@ const TopBar = () => {
             />
           </svg>
 
-          <p className="mx-8 border-r-2 px-4 font-light tracking-widest text-white md:mx-2">
+          <p className="mx-3 border-r-2 pr-4 font-light tracking-widest text-white">
             +971524580280
           </p>
 

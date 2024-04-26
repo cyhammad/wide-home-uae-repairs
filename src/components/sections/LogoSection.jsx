@@ -55,7 +55,7 @@ const LogoSection = () => {
         </div>
 
         <button
-          className="h-20 w-20 items-center justify-center rounded-3xl bg-green text-white focus:outline-none md:hidden"
+          className="h-20 w-20 items-center justify-center rounded-3xl bg-green px-2 text-white focus:outline-none md:hidden"
           onClick={toggleMenu}
         >
           {showMenu ? "X" : "☰"}
@@ -97,11 +97,11 @@ const LogoSection = () => {
         <h1 className="mt-10 text-center text-2xl font-extrabold tracking-wide text-green md:text-5xl">
           #1 The Fastest Service Center
         </h1>
-        <p className="my-7 text-center text-lg font-normal tracking-wider text-white md:text-xl">
+        <p className="mx-3 my-7 text-center text-lg font-normal tracking-wider text-white md:mx-0 md:text-xl">
           When it comes to repairing your home appliances, you need a technician
           you can trust to deliver exceptional service.
         </p>
-        <div className="mx-auto mt-5 flex flex-col gap-10 md:flex-row">
+        <div className="mx-auto mt-5 flex flex-col gap-5 md:flex-row">
           <button
             className="flex flex-shrink-0 justify-center rounded-3xl border-4 border-none bg-green px-14 py-2.5 text-white transition duration-300 ease-in-out hover:bg-white hover:text-green"
             type="button"
