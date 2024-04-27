@@ -17,7 +17,7 @@ const LogoSection = () => {
         <div className="flex items-center justify-start md:w-2/5 md:flex-row md:justify-end">
           <Image
             className="flex"
-            src="/logo.png"
+            src="/logo.webp"
             width={80}
             height={180}
             alt="Logo"
