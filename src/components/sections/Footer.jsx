@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="mt-4 flex items-center justify-center px-4">
             <Image
               className="flex"
-              src="/logo.webp"
+              src="/logo.png"
               width={80}
               height={180}
               alt="Logo"

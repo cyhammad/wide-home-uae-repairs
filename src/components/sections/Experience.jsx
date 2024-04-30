@@ -32,7 +32,7 @@ const Experience = () => {
         <div className="flex flex-col md:flex-row">
           <Image
             className="mx-auto flex"
-            src="/pic3.webp"
+            src="/pic3.jpg"
             width={400}
             height={400}
             alt="About Us"

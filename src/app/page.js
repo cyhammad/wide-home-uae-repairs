@@ -9,7 +9,7 @@ import TopBar from "@/components/sections/TopBar";
 export default function Home() {
   return (
     <>
-      <div className="h-screen bg-[url('/pic1.webp')] bg-cover bg-center">
+      <div className="h-screen bg-[url('/pic1.svg')] bg-cover bg-center">
         <TopBar />
         <LogoSection />
         <AboutUs />
