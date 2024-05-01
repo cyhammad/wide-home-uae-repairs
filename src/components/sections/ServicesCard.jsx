@@ -20,7 +20,7 @@ const ServicesCard = ({ title, description, imageSrc }) => {
       </div>
 
       <button
-        className="mx-auto mb-5 flex flex-shrink-0 justify-center rounded-3xl border-4 border-none bg-green px-14 py-2.5 text-white transition duration-300 ease-in-out hover:bg-white hover:text-green"
+        className="mx-auto mb-5 flex flex-shrink-0 justify-center rounded-3xl border-4 border-none bg-red px-14 py-2.5 text-white transition duration-300 ease-in-out hover:bg-black"
         type="button"
       >
         Call Us

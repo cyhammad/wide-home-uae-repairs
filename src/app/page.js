@@ -2,16 +2,20 @@ import AboutUs from "@/components/sections/AboutUs";
 import Experience from "@/components/sections/Experience";
 import Footer from "@/components/sections/Footer";
 import LogoSection from "@/components/sections/LogoSection";
+import Main from "@/components/sections/Main";
 import Qualities from "@/components/sections/Qualities";
 import Services from "@/components/sections/Services";
+import ServicesBar from "@/components/sections/ServicesBar";
 import TopBar from "@/components/sections/TopBar";
 
 export default function Home() {
   return (
     <>
-      <div className="h-screen bg-[url('/pic1.svg')] bg-cover bg-center">
+      <div>
         <TopBar />
         <LogoSection />
+        <ServicesBar />
+        <Main />
         <AboutUs />
         <Experience />
         <Services />

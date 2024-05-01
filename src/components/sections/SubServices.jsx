@@ -14,7 +14,7 @@ const SubServices = ({ title }) => {
         />
       </svg>
 
-      <p className="px-4 text-green">{title}</p>
+      <p className="px-4 text-red">{title}</p>
     </div>
   );
 };

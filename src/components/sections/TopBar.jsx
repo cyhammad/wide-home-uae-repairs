@@ -1,7 +1,7 @@
 const TopBar = () => {
   return (
     <>
-      <div className="flex h-10 items-center justify-center bg-transparent py-10 ">
+      <div className="fixed left-0 right-0 z-20 bg-white py-3 duration-300">
         <div className="flex w-full items-center justify-center border-b py-2 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -16,12 +16,12 @@ const TopBar = () => {
             />
           </svg>
 
-          <p className="mx-3 border-r-2 pr-4 font-light tracking-widest text-white">
+          <p className="mx-3 border-r-2 pr-4 font-light tracking-widest text-red">
             +971524580280
           </p>
 
           <div className="flex">
-            <p className="mr-3 font-light tracking-widest text-green md:mx-5">
+            <p className="mr-3 font-light tracking-widest text-red md:mx-5">
               Whatsapp Now
             </p>
           </div>

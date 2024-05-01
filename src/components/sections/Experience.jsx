@@ -28,7 +28,8 @@ const Experience = () => {
 
   return (
     <>
-      <div className="mx-auto w-full md:w-3/5 md:py-10">
+      <div className="mx-auto w-full max-w-7xl ">
+        {/* md:w-3/5 md:py-10 */}
         <div className="flex flex-col md:flex-row">
           <Image
             className="mx-auto flex"

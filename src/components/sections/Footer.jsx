@@ -4,7 +4,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <div className="w-full bg-slate-100">
+      <div className="w-full bg-slate-50">
         <div className="mx-auto h-full w-4/5">
           <div className="mt-4 flex items-center justify-center px-4">
             <Image
@@ -26,36 +26,83 @@ const Footer = () => {
               and Abu Dhabi of all the Siemens home appliances.
             </p>
           </div>
-          <ul className="flex flex-col justify-center gap-5 border-b border-gray-300 pb-6  font-bold text-white md:flex-row md:gap-10 md:py-6">
+
+          <div className="flex w-full flex-col justify-between md:flex-row md:px-16">
+            <div className="flex flex-col">
+              <p className="border-b border-gray-400 py-2 text-center font-bold text-black md:text-left">
+                Products and Services{" "}
+              </p>
+
+              <div class="mx-auto grid grid-cols-2 gap-16 text-black md:gap-10">
+                <div>
+                  <ul className="py-4 text-gray-500">
+                    <li>Ovens</li>
+                    <li>Hobs</li>
+                    <li>Coffee Machines</li>
+                    <li>Cookers</li>
+                    <li>Extractor Hoods</li>
+                  </ul>
+                </div>
+                <div>
+                  <ul className="py-4 text-gray-500">
+                    <li>Laundry</li>
+                    <li>Small Appliances</li>
+                    <li>Clean and Care</li>
+                    <li>Refrigeration</li>
+                    <li>Dishwashers</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-col items-center justify-center md:flex-row md:justify-end">
+              <p className="mr-3 py-3 font-medium">
+                Latest News, Events, and Offers
+              </p>
+              <input
+                type="email"
+                placeholder="Enter Your Email ID"
+                className="w-full border border-gray-300 p-3  focus:outline-none"
+              />
+              <button class="mt-4 bg-red px-4 py-3 text-white hover:bg-black md:mt-0">
+                Subscribe
+              </button>
+              {/* md:w-1/4 */}
+            </div>
+          </div>
+
+          {/* <ul className="flex flex-col justify-center gap-5  font-bold text-white md:flex-row md:gap-10 md:py-6">
+          
             <li>
-              <Link href="" className="text-green hover:underline">
+              <Link href="" className="text-red hover:underline">
                 Home
               </Link>
             </li>
 
             <li>
-              <Link href="" className="text-green hover:underline">
+              <Link href="" className="text-red hover:underline">
                 About Us
               </Link>
             </li>
             <li>
-              <Link href="" className="text-green hover:underline">
+              <Link href="" className="text-red hover:underline">
                 Services
               </Link>
             </li>
 
             <li>
-              <Link href="" className="text-green hover:underline">
+              <Link href="" className="text-red hover:underline">
                 Terms of Use
               </Link>
             </li>
 
             <li>
-              <Link href="" className="text-green hover:underline">
+              <Link href="" className="text-red hover:underline">
                 Privacy Policy
               </Link>
             </li>
-          </ul>
+          </ul> */}
+
           <div className="flex items-center justify-center text-gray-500">
             <p className="py-6 text-center text-sm md:tracking-wide">
               © 2024 Emirates Repair Center. All rights reserved.
