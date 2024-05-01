@@ -2,7 +2,7 @@ import React from "react";
 
 const Main = () => {
   return (
-    <div className="mt-4 flex h-screen flex-col bg-gray-50 md:flex-row">
+    <div className="flex h-screen flex-col bg-gray-50 pt-5 md:flex-row">
       <div className="flex-1">
         <div className="flex h-full flex-col justify-center">
           <h1 className="mx-3 mt-10 text-center text-2xl font-extrabold tracking-wide text-red md:text-5xl">

@@ -14,8 +14,8 @@ export default function Home() {
       <div>
         <TopBar />
         <LogoSection />
-        <ServicesBar />
         <Main />
+        <ServicesBar />
         <AboutUs />
         <Experience />
         <Services />
