@@ -43,10 +43,10 @@ const TopBar = () => {
             </p>
 
             <div className="flex">
-              <p className="mr-3 border-r-2 pr-4 text-xs font-bold tracking-widest text-red md:mx-5 md:text-lg">
+              <p className="mr-3  text-xs font-bold tracking-widest text-red md:mx-5 md:text-lg">
                 HIRE US RIGHT NOW!
               </p>
-              <p className="mr-3 text-xs font-light tracking-widest text-red md:mx-2 md:text-lg">
+              <p className="mr-3 hidden border-l-2 pl-4 text-xs font-light tracking-widest text-red md:mx-2 md:block md:text-lg">
                 Whatsapp Now
               </p>
             </div>

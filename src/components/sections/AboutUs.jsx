@@ -26,7 +26,7 @@ const AboutUs = () => {
 
   return (
     <>
-      <div className="flex flex-wrap justify-evenly pb-16 pt-8 md:pt-0">
+      <div className="flex flex-wrap justify-evenly pb-16 pt-8 md:pt-5">
         {cards.map((card, index) => (
           <AboutUsCard key={index} {...card} />
         ))}

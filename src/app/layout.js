@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
         <div className="fixed bottom-4 right-0 z-50 flex flex-col md:right-4">
           <button className=" mr-2 rounded-full py-5 text-white">
             <Image
-              src={"/phone1.svg"}
+              src={"/phone.svg"}
               width={45}
               height={20}
               className="mx-auto flex"
