@@ -41,18 +41,16 @@ const Qualities = () => {
   ];
 
   return (
-    <>
-      <div className="flex flex-col flex-wrap">
-        <h1 className="mb-6 pt-10 text-center text-4xl font-bold md:mb-0">
-          Why Choose Us?
-        </h1>
-        <div className="mx-auto grid gap-4 md:gap-8 lg:grid-cols-3">
-          {cards.map((card, index) => (
-            <QualityCard key={index} {...card} />
-          ))}
-        </div>
+    <div className="mt-10 flex flex-col flex-wrap border-y border-black bg-gray-100 py-5">
+      <h1 className="mb-6 pt-10 text-center text-4xl font-bold md:mb-0">
+        Why Choose Us?
+      </h1>
+      <div className="mx-auto grid gap-4 md:gap-8 lg:grid-cols-3">
+        {cards.map((card, index) => (
+          <QualityCard key={index} {...card} />
+        ))}
       </div>
-    </>
+    </div>
   );
 };
 

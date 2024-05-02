@@ -25,13 +25,20 @@ const AboutUs = () => {
   ];
 
   return (
-    <>
-      <div className="flex flex-wrap justify-evenly pb-16 pt-8 md:pt-5">
-        {cards.map((card, index) => (
-          <AboutUsCard key={index} {...card} />
-        ))}
+    <div className="flex min-h-[600px] w-full items-center justify-center pb-16 pt-8 md:pt-5">
+      <div className="flex w-full max-w-7xl flex-col px-5">
+        <h1 className="text-center text-3xl font-black">Our Qualities</h1>
+        <h1 className="mt-5 text-center text-gray-500">
+          Wide Home UAE Repairs established in Dubai and Abu Dhabi, provides
+          home appliance repair and maintenance services over the phone.
+        </h1>
+        <div className="flex flex-wrap justify-between">
+          {cards.map((card, index) => (
+            <AboutUsCard key={index} {...card} />
+          ))}
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -47,16 +47,15 @@ const Services = () => {
   ];
   return (
     <>
-      <div className="text-center">
+      <div className="pt-10 text-center" id="services">
         <h1 className="mx-3 py-3 text-2xl font-bold md:mx-0 md:text-3xl">
-          Quality Appliance Repair
+          Our Services
         </h1>
-        <p className="mx-3 pb-5 md:mx-0">
+        <p className="mx-3 md:mx-0">
           We are the largest full-service appliance repair company in the world.
           We service all types and brands of home appliances. People trust us.
         </p>
       </div>
-
       <div className="flex flex-wrap justify-evenly">
         {cards.map((card, index) => (
           <ServicesCard key={index} {...card} />

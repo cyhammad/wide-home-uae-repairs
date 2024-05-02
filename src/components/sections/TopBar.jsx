@@ -23,7 +23,7 @@ const TopBar = () => {
   return (
     <>
       {isVisible && (
-        <div className="bg-white py-3 duration-300">
+        <div className="bg-gray-200/50 duration-300">
           <div className="flex w-full items-center justify-center border-b py-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"

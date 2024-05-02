@@ -3,7 +3,7 @@ import React from "react";
 
 const ServicesBar = () => {
   return (
-    <div className="mt-2 grid grid-cols-2 gap-4 bg-pink px-4 py-5 md:mt-1 md:flex md:justify-between md:gap-3">
+    <div className="grid grid-cols-2 gap-4 bg-pink px-4 py-5 md:flex md:justify-between md:gap-3">
       <div className="flex flex-row items-center">
         <Image
           className="flex h-14 w-14 rounded-full border-2 border-white bg-pink px-4 py-3 md:h-20 md:w-20"
