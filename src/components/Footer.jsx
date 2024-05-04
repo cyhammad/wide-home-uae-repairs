@@ -118,7 +118,7 @@ const Footer = () => {
 
           <div className="flex items-center justify-center text-gray-500">
             <p className="py-6 text-center text-sm md:tracking-wide">
-              © 2024 Emirates Repair Center. All rights reserved.
+              © 2024 Gulf Appliances Repair Center. All rights reserved.
             </p>
           </div>
         </div>
