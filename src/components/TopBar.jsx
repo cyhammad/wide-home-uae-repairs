@@ -41,7 +41,7 @@ const TopBar = () => {
                 HIRE US RIGHT NOW!
               </p>
               <Link
-                href={`https://wa.me/${phoneNumber}?text=Hello%20Wide%20Home%20UAE%20Repairs%20I%20need%20your%20help%20with%20my%20appliance%20repair%20service%20in%20Dubai%20and%20Abu%20Dhabi%20UAE`}
+                href={`https://wa.me/${phoneNumber}?text=Hello%20We%20I%20need%20your%20help%20with%20my%20appliance%20repair%20service%20in%20Dubai%20and%20Abu%20Dhabi%20UAE`}
                 target="_blank"
                 className="mr-3 md:border-l-2 pl-4 text-xs font-light tracking-widest text-pink md:mx-2 md:text-lg"
               >

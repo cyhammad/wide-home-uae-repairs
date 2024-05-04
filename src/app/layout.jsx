@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
             <Image src={"/phone.svg"} width={50} height={50} />
           </Link>
           <Link
-            href={`https://wa.me/${phoneNumber}?text=Hello%20Wide%20Home%20UAE%20Repairs%20I%20need%20your%20help%20with%20my%20appliance%20repair%20service%20in%20Dubai%20and%20Abu%20Dhabi%20UAE`}
+            href={`https://wa.me/${phoneNumber}?text=Hello%20We%20I%20need%20your%20help%20with%20my%20appliance%20repair%20service%20in%20Dubai%20and%20Abu%20Dhabi%20UAE`}
             target="_blank"
             className="bg-green-300 rounded-full p-2"
           >
