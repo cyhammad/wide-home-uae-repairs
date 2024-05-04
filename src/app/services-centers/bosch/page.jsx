@@ -1,5 +1,5 @@
 import AboutUs from "@/components/AboutUs";
-import BoschMain from "@/components/Bosch/BoschMain";
+import BoschMain from "@/components/bosch/BoschMain";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import LogoSection from "@/components/LogoSection";

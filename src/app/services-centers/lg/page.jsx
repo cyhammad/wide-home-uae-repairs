@@ -1,10 +1,10 @@
 import Footer from "@/components/Footer";
-import LgAboutUs from "@/components/Lg/LgAboutUs";
-import LgExperience from "@/components/Lg/LgExperience";
-import LgMain from "@/components/Lg/LgMain";
-import LgQualities from "@/components/Lg/LgQualities";
-import LgServicesBar from "@/components/Lg/LgServiceBar";
-import LgServices from "@/components/Lg/LgServices";
+import LgAboutUs from "@/components/lg/LgAboutUs";
+import LgExperience from "@/components/lg/LgExperience";
+import LgMain from "@/components/lg/LgMain";
+import LgQualities from "@/components/lg/LgQualities";
+import LgServicesBar from "@/components/lg/LgServiceBar";
+import LgServices from "@/components/lg/LgServices";
 import LogoSection from "@/components/LogoSection";
 import TopBar from "@/components/TopBar";
 

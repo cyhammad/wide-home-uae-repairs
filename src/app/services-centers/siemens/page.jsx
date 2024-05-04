@@ -1,11 +1,11 @@
 import Footer from "@/components/Footer";
 import LogoSection from "@/components/LogoSection";
-import SiemensAboutUs from "@/components/Siemens/SiemensAboutUs";
-import SiemensExperience from "@/components/Siemens/SiemensExperience";
-import SiemensMain from "@/components/Siemens/SiemensMain";
-import SiemensQualities from "@/components/Siemens/SiemensQualities";
-import SiemensServicesBar from "@/components/Siemens/SiemensServiceBar";
-import SiemensServices from "@/components/Siemens/SiemensServices";
+import SiemensAboutUs from "@/components/siemens/SiemensAboutUs";
+import SiemensExperience from "@/components/siemens/SiemensExperience";
+import SiemensMain from "@/components/siemens/SiemensMain";
+import SiemensQualities from "@/components/siemens/SiemensQualities";
+import SiemensServicesBar from "@/components/siemens/SiemensServiceBar";
+import SiemensServices from "@/components/siemens/SiemensServices";
 import TopBar from "@/components/TopBar";
 
 const SiemensPage = () => {

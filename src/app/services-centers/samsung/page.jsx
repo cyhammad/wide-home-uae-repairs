@@ -1,11 +1,11 @@
 import Footer from "@/components/Footer";
 import LogoSection from "@/components/LogoSection";
-import SamsungAboutUs from "@/components/Samsung/SamsungAboutUs";
-import SamsungExperience from "@/components/Samsung/SamsungExperience";
-import SamsungMain from "@/components/Samsung/SamsungMain";
-import SamsungQualities from "@/components/Samsung/SamsungQualities";
-import SamsungServicesBar from "@/components/Samsung/SamsungServiceBar";
-import SamsungServices from "@/components/Samsung/SamsungServices";
+import SamsungAboutUs from "@/components/samsung/SamsungAboutUs";
+import SamsungExperience from "@/components/samsung/SamsungExperience";
+import SamsungMain from "@/components/samsung/SamsungMain";
+import SamsungQualities from "@/components/samsung/SamsungQualities";
+import SamsungServicesBar from "@/components/samsung/SamsungServiceBar";
+import SamsungServices from "@/components/samsung/SamsungServices";
 import TopBar from "@/components/TopBar";
 
 const SamsungPage = () => {

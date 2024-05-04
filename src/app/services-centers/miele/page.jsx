@@ -1,11 +1,11 @@
 import Footer from "@/components/Footer";
 import LogoSection from "@/components/LogoSection";
-import MieleAboutUs from "@/components/Miele/MieleAboutUs";
-import MieleExperience from "@/components/Miele/MieleExperience";
-import MieleMain from "@/components/Miele/MieleMain";
-import MieleQualities from "@/components/Miele/MieleQualities";
-import MieleServicesBar from "@/components/Miele/MieleServiceBar";
-import MieleServices from "@/components/Miele/MieleServices";
+import MieleAboutUs from "@/components/miele/MieleAboutUs";
+import MieleExperience from "@/components/miele/MieleExperience";
+import MieleMain from "@/components/miele/MieleMain";
+import MieleQualities from "@/components/miele/MieleQualities";
+import MieleServicesBar from "@/components/miele/MieleServiceBar";
+import MieleServices from "@/components/miele/MieleServices";
 import TopBar from "@/components/TopBar";
 
 const MielePage = () => {
