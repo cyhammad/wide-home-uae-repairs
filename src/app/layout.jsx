@@ -10,9 +10,9 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  title: "Wide Home UAE Repairs",
+  title: "Gulf Appliances Repairs",
   description:
-    "Wide Home UAE Repairs is your one-stop destination for all your home repair and renovation needs in the United Arab Emirates.",
+    "Gulf Appliances Repairs is your one-stop destination for all your home repair and renovation needs in the United Arab Emirates.",
 };
 
 export default function RootLayout({ children }) {

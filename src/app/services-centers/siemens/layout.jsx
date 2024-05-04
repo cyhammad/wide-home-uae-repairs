@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Siemens Service Center | Wide Home UAE Repairs",
+  title: "Siemens Service Center | Gulf Appliances Repairs",
   description:
-    "Wide Home UAE Repairs is your one-stop destination for all your home repair and renovation needs in the United Arab Emirates.",
+    "Gulf Appliances Repairs is your one-stop destination for all your home repair and renovation needs in the United Arab Emirates.",
 };
 
 const SiemensLayout = ({ children }) => {
