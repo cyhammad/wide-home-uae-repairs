@@ -3,6 +3,8 @@ import "./globals.css";
 import Image from "next/image";
 import Link from "next/link";
 import { phoneNumber } from "@/libs/phoneNumber";
+import Script from "next/script";
+
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -18,6 +20,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+    <head>
+        {/* Include gtag.js script */}
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16532858519" />
+
+        {/* Include gtag.js initialization script */}
+        <Script dangerouslySetInnerHTML={{ __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-11323917006');
+        ` }} />
+</head>
+     
       <body className={roboto.className}>
         {children}
         <div className="fixed bottom-4 right-3 z-50 flex flex-col gap-y-2 justify-center items-center md:right-4">
