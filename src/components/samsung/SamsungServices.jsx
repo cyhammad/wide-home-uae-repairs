@@ -1,6 +1,6 @@
-import ServicesCard from "./ServicesCard";
+import SamsungServicesCard from "./SasmsungServicesCard";
 
-const Services = () => {
+const SamsungServices = () => {
   const cards = [
     {
       title: "Washing Machine Repair",
@@ -47,7 +47,7 @@ const Services = () => {
   ];
   return (
     <>
-      <div className="pt-10 text-center" id="services">
+      <div className="pt-10 px-5 text-center" id="services">
         <h1 className="mx-3 py-3 text-2xl font-bold md:mx-0 md:text-3xl">
           Our Services
         </h1>
@@ -58,11 +58,11 @@ const Services = () => {
       </div>
       <div className="flex flex-wrap justify-evenly">
         {cards.map((card, index) => (
-          <ServicesCard key={index} {...card} />
+          <SamsungServicesCard key={index} {...card} />
         ))}
       </div>
     </>
   );
 };
 
-export default Services;
+export default SamsungServices;

@@ -1,19 +1,19 @@
-import AboutUs from "@/components/sections/AboutUs";
-import Experience from "@/components/sections/Experience";
-import Footer from "@/components/sections/Footer";
-import LogoSection from "@/components/sections/LogoSection";
-import Main from "@/components/sections/Main";
-import Qualities from "@/components/sections/Qualities";
-import Services from "@/components/sections/Services";
-import ServicesBar from "@/components/sections/ServicesBar";
-import TopBar from "@/components/sections/TopBar";
+import AboutUs from "@/components/AboutUs";
+import BoschMain from "@/components/bosch/BoschMain";
+import Experience from "@/components/Experience";
+import Footer from "@/components/Footer";
+import LogoSection from "@/components/LogoSection";
+import Qualities from "@/components/Qualities";
+import Services from "@/components/Services";
+import ServicesBar from "@/components/ServicesBar";
+import TopBar from "@/components/TopBar";
 
 const BoschPage = () => {
   return (
     <div>
       <TopBar />
       <LogoSection />
-      <Main />
+      <BoschMain />
       <ServicesBar />
       <AboutUs />
       <Experience />

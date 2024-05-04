@@ -1,7 +1,7 @@
 import Image from "next/image";
-import SubServices from "./SubServices";
+import MieleSubServices from "./MieleSubServices";
 
-const Experience = () => {
+const MieleExperience = () => {
   const services = [
     {
       title: "Washing Machine Repair",
@@ -32,7 +32,7 @@ const Experience = () => {
       <div className="flex flex-col md:flex-row">
         <Image
           className="mx-auto flex"
-          src="/pic3.jpg"
+          src="/aboutpic.jpg"
           width={500}
           height={500}
           alt="About Us"
@@ -65,7 +65,7 @@ const Experience = () => {
 
             <div className="mb-4 flex flex-col gap-2">
               {services.map((service, index) => (
-                <SubServices key={index} {...service} />
+                <MieleSubServices key={index} {...service} />
               ))}
             </div>
           </div>
@@ -75,4 +75,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default MieleExperience;

@@ -13,7 +13,7 @@ const Footer = () => {
           {pathname === "/" ? (
             <div className="flex items-center">
               <Image src="/logo.png" width={50} height={50} alt="Logo" />
-              <h2 className="mx-3 text-lg font-bold text-red">
+              <h2 className="mx-3 text-lg font-bold text-pink">
                 Wide Home UAE Repairs
               </h2>
             </div>
@@ -77,7 +77,7 @@ const Footer = () => {
                 placeholder="Enter Your Email ID"
                 className="w-full border border-gray-300 p-3  focus:outline-none"
               />
-              <button class="mt-4 bg-red px-4 py-3 text-white hover:bg-black md:mt-0">
+              <button class="mt-4 bg-pink px-4 py-3 text-white hover:bg-black md:mt-0">
                 Subscribe
               </button>
               {/* md:w-1/4 */}
@@ -87,30 +87,30 @@ const Footer = () => {
           {/* <ul className="flex flex-col justify-center gap-5  font-bold text-white md:flex-row md:gap-10 md:py-6">
           
             <li>
-              <Link href="" className="text-red hover:underline">
+              <Link href="" className="text-pink hover:underline">
                 Home
               </Link>
             </li>
 
             <li>
-              <Link href="" className="text-red hover:underline">
+              <Link href="" className="text-pink hover:underline">
                 About Us
               </Link>
             </li>
             <li>
-              <Link href="" className="text-red hover:underline">
+              <Link href="" className="text-pink hover:underline">
                 Services
               </Link>
             </li>
 
             <li>
-              <Link href="" className="text-red hover:underline">
+              <Link href="" className="text-pink hover:underline">
                 Terms of Use
               </Link>
             </li>
 
             <li>
-              <Link href="" className="text-red hover:underline">
+              <Link href="" className="text-pink hover:underline">
                 Privacy Policy
               </Link>
             </li>

@@ -1,27 +1,27 @@
-import AboutUs from "@/components/sections/AboutUs";
-import Experience from "@/components/sections/Experience";
-import Footer from "@/components/sections/Footer";
-import LogoSection from "@/components/sections/LogoSection";
-import Main from "@/components/sections/Main";
-import Qualities from "@/components/sections/Qualities";
-import Services from "@/components/sections/Services";
-import ServicesBar from "@/components/sections/ServicesBar";
-import TopBar from "@/components/sections/TopBar";
+import Footer from "@/components/Footer";
+import LogoSection from "@/components/LogoSection";
+import TopBar from "@/components/TopBar";
+import LgAboutUs from "@/components/Lg/LgAboutUs";
+import LgExperience from "@/components/Lg/LgExperience";
+import LgMain from "@/components/Lg/LgMain";
+import LgQualities from "@/components/Lg/LgQualities";
+import LgServicesBar from "@/components/Lg/LgServiceBar";
+import LgServices from "@/components/Lg/LgServices";
 
 const LgPage = () => {
   return (
     <div>
-        <TopBar />
-        <LogoSection />
-        <Main />
-        <ServicesBar />
-        <AboutUs />
-        <Experience />
-        <Services />
-        <Qualities />
-        <Footer />
-      </div>
-  )
-}
+      <TopBar />
+      <LogoSection />
+      <LgMain />
+      <LgServicesBar />
+      <LgAboutUs />
+      <LgExperience />
+      <LgServices />
+      <LgQualities />
+      <Footer />
+    </div>
+  );
+};
 
-export default LgPage
+export default LgPage;

@@ -34,7 +34,7 @@ const LogoSection = () => {
         {pathname === "/" ? (
           <div className="flex items-center">
             <Image src="/logo.png" width={50} height={50} alt="Logo" />
-            <h2 className="mx-3 text-lg font-bold text-red">
+            <h2 className="mx-3 text-lg font-bold">
               Wide Home UAE Repairs
             </h2>
           </div>
@@ -51,16 +51,16 @@ const LogoSection = () => {
         )}
         <div className="hidden md:block">
           <ul className="flex gap-10 text-lg font-semibold text-black">
-            <li className="text-red hover:text-black">
+            <li className="text-pink hover:text-black">
               <Link href="/">Home</Link>
             </li>
-            <li className="hover:text-red">
+            <li className="hover:text-pink">
               <Link href="#aboutus">About Us</Link>
             </li>
-            <li className="hover:text-red">
+            <li className="hover:text-pink">
               <Link href="#services">Services</Link>
             </li>
-            <li className="hover:text-red">
+            <li className="hover:text-pink">
               <Link href="">Contact Us</Link>
             </li>
           </ul>
@@ -71,7 +71,7 @@ const LogoSection = () => {
       </div>
       {showMenu && (
         <div
-          className="fixed inset-0 flex items-center justify-center bg-red text-white"
+          className="fixed inset-0 flex items-center justify-center bg-pink text-white"
           onClick={() => setShowMenu(false)}
         >
           <ul className="text-xl font-semibold text-white">

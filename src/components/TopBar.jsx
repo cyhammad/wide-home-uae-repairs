@@ -31,19 +31,19 @@ const TopBar = () => {
             <Link
               href={`tel:${phoneNumber}`}
               target="_blank"
-              className="mx-3 border-r-2 pr-4 text-xs font-light tracking-widest text-red md:text-lg"
+              className="mx-3 border-r-2 pr-4 text-xs font-light tracking-widest text-pink md:text-lg"
             >
               {phoneNumber}
             </Link>
 
             <div className="flex">
-              <p className="mr-3 hidden text-xs font-bold tracking-widest text-red md:mx-5 md:block md:text-lg">
+              <p className="mr-3 hidden text-xs font-bold tracking-widest text-pink md:mx-5 md:block md:text-lg">
                 HIRE US RIGHT NOW!
               </p>
               <Link
                 href={`https://wa.me/${phoneNumber}?text=Hello%20Wide%20Home%20UAE%20Repairs%20I%20need%20your%20help%20with%20my%20appliance%20repair%20service%20in%20Dubai%20and%20Abu%20Dhabi%20UAE`}
                 target="_blank"
-                className="mr-3 md:border-l-2 pl-4 text-xs font-light tracking-widest text-red md:mx-2 md:text-lg"
+                className="mr-3 md:border-l-2 pl-4 text-xs font-light tracking-widest text-pink md:mx-2 md:text-lg"
               >
                 Whatsapp Now
               </Link>

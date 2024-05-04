@@ -1,27 +1,27 @@
-import AboutUs from "@/components/sections/AboutUs";
-import Experience from "@/components/sections/Experience";
-import Footer from "@/components/sections/Footer";
-import LogoSection from "@/components/sections/LogoSection";
-import Main from "@/components/sections/Main";
-import Qualities from "@/components/sections/Qualities";
-import Services from "@/components/sections/Services";
-import ServicesBar from "@/components/sections/ServicesBar";
-import TopBar from "@/components/sections/TopBar";
+import Footer from "@/components/Footer";
+import LogoSection from "@/components/LogoSection";
+import TopBar from "@/components/TopBar";
+import MieleAboutUs from "@/components/Miele/MieleAboutUs";
+import MieleExperience from "@/components/Miele/MieleExperience";
+import MieleMain from "@/components/Miele/MieleMain";
+import MieleQualities from "@/components/Miele/MieleQualities";
+import MieleServicesBar from "@/components/Miele/MieleServiceBar";
+import MieleServices from "@/components/Miele/MieleServices";
 
 const MielePage = () => {
   return (
     <div>
-        <TopBar />
-        <LogoSection />
-        <Main />
-        <ServicesBar />
-        <AboutUs />
-        <Experience />
-        <Services />
-        <Qualities />
-        <Footer />
-      </div>
-  )
-}
+      <TopBar />
+      <LogoSection />
+      <MieleMain />
+      <MieleServicesBar />
+      <MieleAboutUs />
+      <MieleExperience />
+      <MieleServices />
+      <MieleQualities />
+      <Footer />
+    </div>
+  );
+};
 
-export default MielePage
+export default MielePage;

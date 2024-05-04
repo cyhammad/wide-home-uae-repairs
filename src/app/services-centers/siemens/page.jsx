@@ -1,24 +1,24 @@
-import AboutUs from "@/components/sections/AboutUs";
-import Experience from "@/components/sections/Experience";
-import Footer from "@/components/sections/Footer";
-import LogoSection from "@/components/sections/LogoSection";
-import Main from "@/components/sections/Main";
-import Qualities from "@/components/sections/Qualities";
-import Services from "@/components/sections/Services";
-import ServicesBar from "@/components/sections/ServicesBar";
-import TopBar from "@/components/sections/TopBar";
+import Footer from "@/components/Footer";
+import LogoSection from "@/components/LogoSection";
+import TopBar from "@/components/TopBar";
+import SiemensAboutUs from "@/components/siemens/SiemensAboutUs";
+import SiemensExperience from "@/components/siemens/SiemensExperience";
+import SiemensMain from "@/components/siemens/SiemensMain";
+import SiemensQualities from "@/components/siemens/SiemensQualities";
+import SiemensServicesBar from "@/components/siemens/SiemensServiceBar";
+import SiemensServices from "@/components/siemens/SiemensServices";
 
 const SiemensPage = () => {
   return (
     <div>
       <TopBar />
       <LogoSection />
-      <Main />
-      <ServicesBar />
-      <AboutUs />
-      <Experience />
-      <Services />
-      <Qualities />
+      <SiemensMain />
+      <SiemensServicesBar />
+      <SiemensAboutUs />
+      <SiemensExperience />
+      <SiemensServices />
+      <SiemensQualities />
       <Footer />
     </div>
   );

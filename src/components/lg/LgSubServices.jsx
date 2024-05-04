@@ -1,4 +1,4 @@
-const SubServices = ({ title }) => {
+const LgSubServices = ({ title }) => {
   return (
     <div className="flex">
       <svg
@@ -14,9 +14,9 @@ const SubServices = ({ title }) => {
         />
       </svg>
 
-      <p className="px-4 text-red">{title}</p>
+      <p className="px-4 text-darkred">{title}</p>
     </div>
   );
 };
 
-export default SubServices;
+export default LgSubServices;
