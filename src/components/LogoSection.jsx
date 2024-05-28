@@ -1,3 +1,4 @@
+
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
@@ -38,17 +39,17 @@ const LogoSection = () => {
               Gulf Appliances Repairs
             </h2>
           </div>
-        ) : pathname === "/services-centers/bosch" ? (
+        ) : pathname === "/service-center/bosch" ? (
           <Image src="/bosch.svg" width={150} height={50} alt="bosch logo" />
-        ) : pathname === "/services-centers/siemens" ? (
+        ) : pathname === "/service-center/siemens" ? (
           <Image src="/siemens.svg" width={150} height={50} alt="bosch logo" />
-        ) : pathname === "/services-centers/lg" ? (
+        ) : pathname === "/service-center/lg" ? (
           lgLogo
-        ) : pathname === "/services-centers/samsung" ? (
+        ) : pathname === "/service-center/samsung" ? (
           samsungLogo
-        ) : (
+        ) :pathname === "/service-center/miele" ? (
           <Image src="/miele.svg" width={150} height={50} alt="bosch logo" />
-        )}
+        ):(null)}
         <div className="hidden md:block">
           <ul className="flex gap-10 text-lg font-semibold text-black">
             <li className="text-pink hover:text-black">

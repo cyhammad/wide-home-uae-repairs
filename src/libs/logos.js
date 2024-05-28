@@ -1,3 +1,4 @@
+
 export const boschLogo = (
   <svg>
     <svg version="1.1" viewBox="0 0 561 224" xmlns="http://www.w3.org/2000/svg">

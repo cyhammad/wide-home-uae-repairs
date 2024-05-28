@@ -46,7 +46,7 @@ const Footer = () => {
                 Products and Services{" "}
               </p>
 
-              <div class="mx-auto grid grid-cols-2 gap-16 text-black md:gap-10">
+              <div className="mx-auto grid grid-cols-2 gap-16 text-black md:gap-10">
                 <div>
                   <ul className="py-4 text-gray-500">
                     <li>Ovens</li>
@@ -68,7 +68,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div class="flex flex-col items-center justify-center md:flex-row md:justify-end">
+            <div className="flex flex-col items-center justify-center md:flex-row md:justify-end">
               <p className="mr-3 py-3 font-medium">
                 Latest News, Events, and Offers
               </p>
@@ -77,7 +77,7 @@ const Footer = () => {
                 placeholder="Enter Your Email ID"
                 className="w-full border border-gray-300 p-3  focus:outline-none"
               />
-              <button class="mt-4 bg-pink px-4 py-3 text-white hover:bg-black md:mt-0">
+              <button className="mt-4 bg-pink px-4 py-3 text-white hover:bg-black md:mt-0">
                 Subscribe
               </button>
               {/* md:w-1/4 */}
