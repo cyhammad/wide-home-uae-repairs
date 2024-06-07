@@ -31,6 +31,20 @@ export default function RootLayout({ children }) {
           gtag('js', new Date());
           gtag('config', 'AW-11323917006');
         ` }} />
+          <Script id="clickmagick-cmc-script" strategy="beforeInteractive">
+          {`
+            window.clickmagick_cmc = {
+              uid: '197930',
+              hid: '1550199704',
+              cmc_project: 'We Will Fix Home UAE',
+              vid_info: 'on',
+            }
+          `}
+        </Script>
+        <Script
+          src="//cdn.clkmc.com/cmc.js"
+          strategy="beforeInteractive"
+        />
 </head>
      
       <body className={roboto.className}>

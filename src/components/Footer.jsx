@@ -17,18 +17,18 @@ const Footer = () => {
                 Gulf Appliances Repairs
               </h2>
             </div>
-          ) : pathname === "/services-centers/bosch" ? (
+          ) : pathname === "/service-center/bosch" ? (
             <Image src="/bosch.svg" width={150} height={50} alt="bosch logo" />
-          ) : pathname === "/services-centers/siemens" ? (
+          ) : pathname === "/service-center/siemens" ? (
             <Image
               src="/siemens.svg"
               width={150}
               height={50}
               alt="bosch logo"
             />
-          ) : pathname === "/services-centers/lg" ? (
+          ) : pathname === "/service-center/lg" ? (
             lgLogo
-          ) : pathname === "/services-centers/samsung" ? (
+          ) : pathname === "/service-center/samsung" ? (
             samsungLogo
           ) : (
             <Image src="/miele.svg" width={150} height={50} alt="bosch logo" />
