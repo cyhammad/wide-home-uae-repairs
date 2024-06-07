@@ -31,7 +31,7 @@ const LgServicesBar = () => {
       <div className="flex flex-row items-center">
         <Image
           className="flex h-14 w-14 rounded-full border-2 border-white bg-darkred px-4 py-3 md:h-20 md:w-20"
-          src="/subService3.svg"
+          src="/subService2.svg"
           width={80}
           height={50}
           alt="Logo"
