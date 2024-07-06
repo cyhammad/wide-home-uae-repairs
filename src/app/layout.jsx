@@ -41,6 +41,31 @@ export default function RootLayout({ children }) {
             }
           `}
         </Script>
+
+        <Script dangerouslySetInnerHTML={{ __html: `
+          function gtag_report_conversion(url) {
+            var callback = function () {
+              if (typeof(url) != 'undefined') {
+                window.location = url;
+              }
+            };
+            gtag('event', 'conversion', {
+              'send_to': 'AW-11381612476/sLZ-CLyI3KAZELy_lrMq',
+              'event_callback': callback
+            });
+            return false;
+          }
+        ` }} />
+
+        {/* Other head elements... */}
+        {/* Google Tag Manager - Global base code */}
+        <Script dangerouslySetInnerHTML={{ __html: `
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-THZLDJ4V');
+        ` }} />
         <Script
           src="//cdn.clkmc.com/cmc.js"
           strategy="beforeInteractive"
@@ -48,6 +73,14 @@ export default function RootLayout({ children }) {
 </head>
      
       <body className={roboto.className}>
+      <noscript>
+          <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THZLDJ4V" height="0" width="0" style={{ display: "none", visibility: "hidden" }} />
+          {/* <!--  ClickCease.com tracking--> */}
+          <a href="https://www.clickcease.com" rel="nofollow">
+            <img src="https://monitor.clickcease.com" alt="ClickCease" />
+          </a>
+          {/* <!--  ClickCease.com tracking--> */}
+        </noscript>
         {children}
         <div className="fixed bottom-4 right-3 z-50 flex flex-col gap-y-2 justify-center items-center md:right-4">
           <Link
