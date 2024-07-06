@@ -1,10 +1,7 @@
 import { Roboto } from "next/font/google";
 import "./globals.css";
-import Image from "next/image";
-import Link from "next/link";
-import { phoneNumber } from "@/libs/phoneNumber";
 import Script from "next/script";
-
+import CallToActionButtons from "../app/CallToActionButtons"; // Adjust the path as necessary
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -20,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-    <head>
+      <head>
         {/* Include gtag.js script */}
         <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-11323917006" />
 
@@ -31,7 +28,7 @@ export default function RootLayout({ children }) {
           gtag('js', new Date());
           gtag('config', 'AW-11323917006');
         ` }} />
-          <Script id="clickmagick-cmc-script" strategy="beforeInteractive">
+        <Script id="clickmagick-cmc-script" strategy="beforeInteractive">
           {`
             window.clickmagick_cmc = {
               uid: '197930',
@@ -50,7 +47,7 @@ export default function RootLayout({ children }) {
               }
             };
             gtag('event', 'conversion', {
-              'send_to': 'AW-11381612476/sLZ-CLyI3KAZELy_lrMq',
+              'send_to': 'AW-11323917006/97uBCKGNxsAZEM6F1Zcq',
               'event_callback': callback
             });
             return false;
@@ -70,10 +67,9 @@ export default function RootLayout({ children }) {
           src="//cdn.clkmc.com/cmc.js"
           strategy="beforeInteractive"
         />
-</head>
-     
+      </head>
       <body className={roboto.className}>
-      <noscript>
+        <noscript>
           <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THZLDJ4V" height="0" width="0" style={{ display: "none", visibility: "hidden" }} />
           {/* <!--  ClickCease.com tracking--> */}
           <a href="https://www.clickcease.com" rel="nofollow">
@@ -82,22 +78,7 @@ export default function RootLayout({ children }) {
           {/* <!--  ClickCease.com tracking--> */}
         </noscript>
         {children}
-        <div className="fixed bottom-4 right-3 z-50 flex flex-col gap-y-2 justify-center items-center md:right-4">
-          <Link
-            href={`tel:${phoneNumber}`}
-            target="_blank"
-            className="p-2 bg-black/40 rounded-full"
-          >
-            <Image src={"/phone.svg"} width={50} height={50} />
-          </Link>
-          <Link
-            href={`https://wa.me/${phoneNumber}?text=Hello%20I%20need%20your%20help%20with%20my%20appliance%20repairs`}
-            target="_blank"
-            className="bg-green-300 rounded-full p-2"
-          >
-            <Image src={"/whatsapp.svg"} width={50} height={50} />
-          </Link>
-        </div>
+        <CallToActionButtons />
       </body>
     </html>
   );

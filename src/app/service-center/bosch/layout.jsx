@@ -1,3 +1,4 @@
+
 export const metadata = {
   title: "Bosch Service Center | Gulf Appliances Repairs",
   description:
