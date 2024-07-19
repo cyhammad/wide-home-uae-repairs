@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
               }
             };
             gtag('event', 'conversion', {
-              'send_to': 'AW-11323917006/97uBCKGNxsAZEM6F1Zcq',
+              'send_to': 'AW-11323917006/W6xMCKnXhsQZEM6F1Zcq',
               'event_callback': callback
             });
             return false;
