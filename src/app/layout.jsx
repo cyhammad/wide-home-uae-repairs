@@ -63,19 +63,12 @@ export default function RootLayout({ children }) {
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
           })(window,document,'script','dataLayer','GTM-THZLDJ4V');
         ` }} />
-        <Script
-          src="//cdn.clkmc.com/cmc.js"
-          strategy="beforeInteractive"
-        />
+        
       </head>
       <body className={roboto.className}>
         <noscript>
           <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THZLDJ4V" height="0" width="0" style={{ display: "none", visibility: "hidden" }} />
-          {/* <!--  ClickCease.com tracking--> */}
-          <a href="https://www.clickcease.com" rel="nofollow">
-            <img src="https://monitor.clickcease.com" alt="ClickCease" />
-          </a>
-          {/* <!--  ClickCease.com tracking--> */}
+     
         </noscript>
         {children}
         <CallToActionButtons />
