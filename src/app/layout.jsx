@@ -18,6 +18,20 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+         {/* DataDome Fraud Protection Script */}
+      <Script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.ddjskey = 'YOUR_DATADOME_JS_KEY';
+            window.ddoptions = {
+              debug: false,
+              handleChallenge: false,
+              endpoint: '/js/'
+            };
+          `,
+        }}
+      />
+      <Script async src="https://js.datadome.co/tags.js" />
         {/* Include gtag.js script */}
         <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-11323917006" />
 
