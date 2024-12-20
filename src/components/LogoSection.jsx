@@ -36,7 +36,7 @@ const LogoSection = () => {
           <div className="flex items-center">
             <Image src="/logo.png" width={50} height={50} alt="Logo" />
             <h2 className="mx-3 text-lg font-bold">
-              Gulf Appliances Repairs
+              Appliances Expert UAE
             </h2>
           </div>
         ) : pathname === "/service-center/bosch" ? (

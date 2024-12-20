@@ -9,39 +9,47 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  title: "Gulf Appliances Repairs",
+  title: "Appliances Expert UAE",
   description:
-    "Gulf Appliances Repairs is your one-stop destination for all your home repair and renovation needs in the United Arab Emirates.",
+    "Appliances Expert UAE is your one-stop destination for all your home repair and renovation needs in the United Arab Emirates.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-         {/* DataDome Fraud Protection Script */}
-      <Script
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.ddjskey = 'YOUR_DATADOME_JS_KEY';
+        {/* DataDome Fraud Protection Script */}
+        <Script
+          strategy="lazyOnload"
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.ddjskey = 'L2vPCxBDL6dJwwT';
             window.ddoptions = {
               debug: false,
               handleChallenge: false,
-              endpoint: '/js/'
+              endpoint: 'https://www.gulfappliancesrepair.com/js/'
             };
           `,
-        }}
-      />
-      <Script async src="https://js.datadome.co/tags.js" />
+          }}
+        />
+        <Script async strategy="lazyOnload" src="https://js.datadome.co/tags.js" />
         {/* Include gtag.js script */}
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-11323917006" />
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-11323917006"
+        />
 
         {/* Include gtag.js initialization script */}
-        <Script dangerouslySetInnerHTML={{ __html: `
+        <Script
+          dangerouslySetInnerHTML={{
+            __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'AW-11323917006');
-        ` }} />
+        `,
+          }}
+        />
         <Script id="clickmagick-cmc-script" strategy="beforeInteractive">
           {`
             window.clickmagick_cmc = {
@@ -53,7 +61,9 @@ export default function RootLayout({ children }) {
           `}
         </Script>
 
-        <Script dangerouslySetInnerHTML={{ __html: `
+        <Script
+          dangerouslySetInnerHTML={{
+            __html: `
           function gtag_report_conversion(url) {
             var callback = function () {
               if (typeof(url) != 'undefined') {
@@ -66,23 +76,32 @@ export default function RootLayout({ children }) {
             });
             return false;
           }
-        ` }} />
+        `,
+          }}
+        />
 
         {/* Other head elements... */}
         {/* Google Tag Manager - Global base code */}
-        <Script dangerouslySetInnerHTML={{ __html: `
+        <Script
+          dangerouslySetInnerHTML={{
+            __html: `
           (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
           })(window,document,'script','dataLayer','GTM-THZLDJ4V');
-        ` }} />
-        
+        `,
+          }}
+        />
       </head>
       <body className={roboto.className}>
         <noscript>
-          <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THZLDJ4V" height="0" width="0" style={{ display: "none", visibility: "hidden" }} />
-     
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-THZLDJ4V"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
         </noscript>
         {children}
         <CallToActionButtons />

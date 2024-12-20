@@ -1,8 +1,8 @@
 
 export const metadata = {
-  title: "Bosch Service Center | Gulf Appliances Repairs",
+  title: "Bosch Service Center | Appliances Expert UAE",
   description:
-    "Gulf Appliances Repairs is your one-stop destination for all your home repair and renovation needs in the United Arab Emirates.",
+    "Appliances Expert UAE is your one-stop destination for all your home repair and renovation needs in the United Arab Emirates.",
 };
 
 const BoschLayout = ({ children }) => {
