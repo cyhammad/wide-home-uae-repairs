@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Samsung Service Center | Appliances Expert UAE",
+  title: "Samsung Service Center | Relaible Appliances Repair",
   description:
-    "Appliances Expert UAE is your one-stop destination for all your home repair and renovation needs in the United Arab Emirates.",
+    "Relaible Appliances Repair is your one-stop destination for all your home repair and renovation needs in the United Arab Emirates.",
 };
 
 const SamsungLayout = ({ children }) => {

@@ -29,7 +29,7 @@ const AboutUs = () => {
       <div className="flex w-full max-w-7xl flex-col px-5">
         <h1 className="text-center text-3xl font-black">Our Qualities</h1>
         <h1 className="mt-5 text-center text-gray-500">
-          Appliances Expert UAE established in Dubai and Abu Dhabi, provides
+          Relaible Appliances Repair established in Dubai and Abu Dhabi, provides
           home appliance repair and maintenance services over the phone.
         </h1>
         <div className="flex flex-wrap justify-between">
