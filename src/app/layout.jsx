@@ -9,9 +9,9 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  title: "Appliances Expert UAE",
+  title: "Relaible Appliances Repair",
   description:
-    "Appliances Expert UAE is your one-stop destination for all your home repair and renovation needs in the United Arab Emirates.",
+    "Relaible Appliances Repair is your one-stop destination for all your home repair and renovation needs in the United Arab Emirates.",
 };
 
 export default function RootLayout({ children }) {
